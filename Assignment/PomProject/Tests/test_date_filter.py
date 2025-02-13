@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from PomProject.Pages.date_filter_page import DateFilterPage
+from Assignment.PomProject.Pages.date_filter_page import DateFilterPage
 
 
 @pytest.fixture
