@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from Assignment.PomProject.Pages.date_filter_page import DateFilterPage
+from Assignment.PomProject.Pages.base_page import BasePage
 
 class DateFilterPage(BasePage):
     DATE_INPUT = (By.ID, "date-filter")  # Example locator
